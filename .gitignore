@@ -1,2 +1,9 @@
+#忽略当前目录下所有以TXT结尾的 文件
 *.txt
+#忽略 2.HTML 文件
 2.html
+#只忽略test下的test1.html
+test/test1.html
+#忽略node_modules目录,但是不忽略a.js文件
+/node_modules/*
+!/node_modules/a.js
